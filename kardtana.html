@@ -1,0 +1,99 @@
+<div>
+<p><b>Estas en un duelo de samurais.</b></p>
+
+<p>El duelo tiene 3 rondas y el que reciba más heridas en las 3 rondas pierde y muere.</p>
+<p>Al principio de cada ronda coges una carta y pones el pulgar y el indice de una mano en el foco igual a tu numero de heridas y la otra en el foco siguiente. El primer turno se elige a suertes quien empieza la ronda, en los siguientes empieza el que tenga más heridas y si tienen las mismas heridas el que no empezo en la anterior ronda.</p>
+<p>Cada turno debes elegir FOCO o CORTE.</p>
+<p>Si eliges <b>FOCO</b> puedes mover una mano al foco siguiente o anterior de un foco que tengas agarrado por el pulgar y el indice, para hacerlo puedes incluso cruzar los manos o dar la vuelta a la carta.</p>
+<p>Si eliges <b>CORTE</b>, tú y tu contrincante inmediatamente rompeís tu carta usando los dedos en la posición que están. Vuestro daño será el número por el que se rompa la carta. El que consiga un número mayor hace una herida al contrario o se hieren mutuamente en caso de empate.</p>  
+</div>
+<div>
+	<div class="foco foco0">Foco 4</div>
+	<div class="foco foco1">Foco 2</div>
+	<div class="foco foco2">Foco 0</div>
+	<div class="foco foco3">Foco 1</div>
+	<div class="foco foco4">Foco 3</div>
+	<div class="foco foco5">Foco 5</div>
+	<div class="herida herida1">7</div>
+	<div class="herida herida2">6</div>
+	<div class="herida herida3">5</div>
+	<div class="herida herida4">4</div>
+	<div class="herida herida5">3</div>
+	<div class="herida herida6">2</div>
+	<div class="herida herida7">1</div>
+	<div class="herida herida8">2</div>
+	<div class="herida herida9">3</div>
+	<div class="herida herida10">4</div>
+	<div class="herida herida11">5</div>
+	<div class="herida herida12">6</div>
+	<div class="herida herida13">7</div>
+</div>
+<style>
+body {
+	display: flex;
+	gap: 10px;
+}
+
+body > div {
+	width: 384px;
+	height: 576px;
+	border-radius: 10px;
+	border: 30px solid black;
+	padding: 10px;
+	position: relative;
+}
+
+p {
+	padding: 0 0 5px 0;
+	margin: 0;
+	font-size: 20px;
+	line-height: 115%;
+}
+
+div.foco {
+	position: absolute;
+	right: 0px;
+	border: 1px solid black;
+	height: 50px;
+	width: 50px;
+	transform: rotate(90deg);
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	text-align: center;
+}
+
+div.foco0 { top: 6%; }
+div.foco1 { top: calc(25% - 30px); }
+div.foco2 { top: calc(50% - 90px); }
+div.foco3 { bottom: calc(50% - 90px); }
+div.foco4 { bottom: calc(25% - 30px); }
+div.foco5 { bottom: 6%; }
+
+div.herida {
+	position: absolute;
+	border: 1px solid black;
+	text-align: center;
+	padding: 3px 15px;
+	font-size: 30px;
+	box-sizing: border-box;
+}
+
+div.herida1 { top: 0; left: 270px; width: 90px; }
+div.herida2 { top: 0; left: 180px; width: 90px; }
+div.herida3 { top: 0; left: 90px; width: 90px; }
+div.herida4 { top: 0; left: 0; width: 90px; }
+
+
+
+div.herida5 { top: 70px; left: -29px; width: 100px; transform: rotate(90deg);}
+div.herida6 { top: 169px; left: -29px; width: 100px; transform: rotate(90deg);}
+div.herida7 { top: 277px; left: -38px; width: 118px; transform: rotate(90deg);}
+div.herida8 { top: 385px; left: -29px; width: 100px; transform: rotate(90deg);}
+div.herida9 { top: 484px; left: -29px; width: 100px; transform: rotate(90deg);}
+
+div.herida13 { bottom: 0; left: 270px; width: 90px; }
+div.herida12 { bottom: 0; left: 180px; width: 90px; }
+div.herida11 { bottom: 0; left: 90px; width: 90px; }
+div.herida10 { bottom: 0; left: 0; width: 90px; }
+
+</style>
