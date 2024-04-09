@@ -1,4 +1,4 @@
-# Kardtana - El juego de duelos de samuráis con una sola carta
+# Kardtana - El juego de duelos de samuráis rompiendo cartas
 
 Participas en un duelo de samuráis
 
