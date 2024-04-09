@@ -1,7 +1,7 @@
 <div style="margin-top: 3px;">
-	<p><b style="font-family: 'NukuNuku'; letter-spacing: 1.5px; texta-align: center;">Participas en un duelo de samurais</b></p>
+	<p style="text-align: center;"><b style="font-family: 'Osaka-Sans Serif'; letter-spacing: 1.5px;">Participas en un duelo de samuráis</b></p>
 	<p>El duelo tiene 3 rondas y el que reciba más heridas en las 3 rondas pierde y muere.</p>
-	<p>Al principio de cada ronda coges una carta y pones el pulgar y el índice de una mano en el foco 
+	<p>Al principio de cada ronda, coges una carta y pones el pulgar y el índice de una mano en el foco 
 		igual a tu número de heridas y la otra en el foco siguiente. El primer turno se elige a suertes 
 		quien empieza la ronda, en los siguientes empieza el que tenga más heridas y si tienen las mismas 
 		heridas el que no empezó en la anterior ronda.</p>
@@ -11,7 +11,8 @@
 		a la carta. El turno pasa al contrincante y mientras se elija FOCO no acaba la ronda.</p>
 	<p>Si eliges <b>CORTE</b>, tú y tu contrincante inmediatamente rompéis tu carta usando los dedos 
 		en la posición que están. Vuestro daño será el número por el que se rompa la carta. El que consiga 
-		un número mayor hace una herida al contrario o se hieren mutuamente en caso de empate.</p>  
+		un número mayor hace una herida al contrario o se hieren mutuamente en caso de empate.</p>
+	<p>Si rompes la carta antes de CORTE, sueltas una mano sin decir FOCO o se te cae pierdes la ronda.</p>  
 </div>
 <div style="margin-top: 3px;">
 	<div class="foco foco0">Foco <span>4</span></div>
@@ -268,17 +269,18 @@
 	<div class="herida herida12">6</div>
 	<div class="herida herida13">7</div>
 </div>
-<p style="margin-top: 10px;">Juego creado por <a href="https://gwannon.itch.io/">Gwannon</a> bajo Licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es">Creative Commons Atribución 4.0 Internacional (CC BY 4.0)</a>.<br/>
-	<a href="https://www.freepik.com/free-vector/chinese-japanese-bamboo-grass-oriental-wallpaper-tropical-asian-plant-background_13422910.htm">Imagen de Bambu por macrovector</a> en Freepik<br/>
+<p style="margin-top: 10px;">Imprimir a dos caras<br/>
+	Juego creado por <a href="https://gwannon.itch.io/">Gwannon</a> bajo Licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es">Creative Commons Atribución 4.0 Internacional (CC BY 4.0)</a>.<br/>
+	<a href="https://www.freepik.com/free-vector/chinese-japanese-bamboo-grass-oriental-wallpaper-tropical-asian-plant-background_13422910.htm">Imagen de Bambú por macrovector</a> en Freepik<br/>
 	<a href="https://pixabay.com/es/illustrations/flor-de-cereza-flor-sakura-6201779/">Imagen de flor de cerezo de BarelyDevi</a> en Pixabay</p>
 <style>
 
 @font-face {
-	font-family: 'NukuNuku';
+	font-family: 'Osaka-Sans Serif';
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-	src: url(./fonts/nuku1.ttf) format('truetype');
+	src: url(./fonts/osaka-re.ttf) format('truetype');
 }
 
 body {
@@ -316,7 +318,7 @@ body > div:not(:first-child, .saltopagina) {
 p {
 	padding: 0 0 5px 0;
 	margin: 0;
-	font-size: 11.5px;
+	font-size: 11.3px;
 	line-height: 101%;
 }
 
@@ -325,7 +327,7 @@ body > div:not(:first-child, .saltopagina) > div {
 }
 
 div.foco {
-	font-family: 'NukuNuku';
+	font-family: 'Osaka-Sans Serif';
 	position: absolute;
 	right: 0px;
 	border: 1px solid black;
@@ -356,7 +358,7 @@ div.herida {
 	padding: 3px 15px;
 	font-size: 20px;
 	box-sizing: border-box;
-	font-family: 'NukuNuku';
+	font-family: 'Osaka-Sans Serif';
   text-align: center;
 }
 
@@ -412,9 +414,3 @@ div.herida10 { bottom: 0; left: 0; width: 20%; }
 }
 
 </style>
-<!--
-
-<a href="https://www.freepik.com/free-vector/chinese-japanese-bamboo-grass-oriental-wallpaper-tropical-asian-plant-background_13422910.htm">Imagen de Bambu por macrovector</a> en Freepik
-<a href="https://pixabay.com/es/illustrations/flor-de-cereza-flor-sakura-6201779/">Imagen de flor de cerezo de BarelyDevi</a> en Pixabay
-
--->

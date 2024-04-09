@@ -13,5 +13,5 @@ Si eliges FOCO puedes mover una mano al foco siguiente o anterior de un foco que
 Si eliges CORTE, tú y tu contrincante inmediatamente rompéis tu carta usando los dedos en la posición que están. Vuestro daño será el número por el que se rompa la carta. El que consiga un número mayor hace una herida al contrario o se hieren mutuamente en caso de empate.
 
 ## Atribución
-* [Imagen de Bambu por macrovector en Freepik](https://www.freepik.com/free-vector/chinese-japanese-bamboo-grass-oriental-wallpaper-tropical-asian-plant-background_13422910.htm)
+* [Imagen de Bambú por macrovector en Freepik](https://www.freepik.com/free-vector/chinese-japanese-bamboo-grass-oriental-wallpaper-tropical-asian-plant-background_13422910.htm)
 * [Imagen de flor de cerezo de BarelyDevi en Pixabay](https://pixabay.com/es/illustrations/flor-de-cereza-flor-sakura-6201779/)
